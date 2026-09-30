@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Wipes the backend's data (including anything created via mass assignment,
 # PIN resets, or transfers) and re-seeds it back to the two fixed demo
-# accounts. Mirrors Zenith HR's reset.sh.
+# accounts.
 
 cd "$(dirname "$0")/.."
 

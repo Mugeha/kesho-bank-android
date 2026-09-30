@@ -2,12 +2,12 @@
 
 Kesho Bank is a fictional mobile banking app, deliberately built with real, exploitable
 vulnerabilities for hands-on Android security practice. It is an official Africahackon
-practice platform, and the mobile-focused sibling to Zenith HR.
+practice platform.
 
 Kesho Bank is not a real bank or financial institution, and contains no real customer,
 account, or transaction data. Every record is synthetic.
 
-Full rules of engagement: `docs/RULES_OF_ENGAGEMENT.md`, and in-app from Settings → View
+Full rules of engagement: `docs/RULES_OF_ENGAGEMENT.md`, and in-app from Settings, View
 Rules of Engagement.
 
 ## What you get
