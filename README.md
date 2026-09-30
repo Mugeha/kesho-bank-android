@@ -23,22 +23,32 @@ Reverse-engineering the APK (`jadx`, `apktool`) is part of the intended exercise
 
 ## Screenshots
 
-_Coming soon, once the app has been run through a full device pass._
+Rules of Engagement:
+
+![Rules of Engagement](docs/screenshots/rules-of-engagement.png)
+
+Login:
+
+![Login](docs/screenshots/login.png)
+
+Dashboard, with seeded synthetic demo data:
+
+![Dashboard](docs/screenshots/dashboard.png)
 
 ## Getting the app
 
-Download the latest signed APK from this repo's
-[Releases](../../releases) page. Each release includes a SHA-256 checksum; verify it
-before installing:
+Download `app-release.apk` from this repo's
+[Releases](../../releases) page. Each release includes a SHA-256 checksum in its notes;
+verify it before installing:
 
 ```bash
-sha256sum kesho-bank-release.apk
+sha256sum app-release.apk
 ```
 
 Then install it on an emulator or a physical device with USB debugging enabled:
 
 ```bash
-adb install kesho-bank-release.apk
+adb install app-release.apk
 ```
 
 Or transfer the APK to the device and open it directly (you'll need to allow installs from
