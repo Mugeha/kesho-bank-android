@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Vuln #9: cleartext HTTP permitted for all destinations, not just the
+         emulator's host-loopback alias. -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

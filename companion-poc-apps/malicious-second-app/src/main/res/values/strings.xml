@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kesho Exploit PoC</string>
+    <string name="warning_text">Companion proof-of-concept for authorized Kesho Bank training use only. Demonstrates vulns #4, #5, #6 are reachable from a genuinely separate installed app, not just adb.</string>
+    <string name="action_launch_transfer">Launch TransferConfirmActivity directly (vuln #4)</string>
+    <string name="action_query_provider">Query TransactionProvider (vuln #5)</string>
+    <string name="action_send_otp_broadcast">Spoof OTP_CONFIRMED broadcast (vuln #6)</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kesho_primary">#0D9488</color>
+    <color name="kesho_primary_dark">#0F766E</color>
+    <color name="kesho_primary_container">#CCFBF1</color>
+    <color name="kesho_secondary">#FFD166</color>
+    <color name="kesho_on_primary">#FFFFFF</color>
+    <color name="kesho_background">#F7F9F9</color>
+    <color name="kesho_surface">#FFFFFF</color>
+    <color name="kesho_on_surface">#1A1C1C</color>
+    <color name="kesho_error">#B3261E</color>
+</resources>

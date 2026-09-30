@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KeshoBank" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/kesho_primary</item>
+        <item name="colorPrimaryVariant">@color/kesho_primary_dark</item>
+        <item name="colorOnPrimary">@color/kesho_on_primary</item>
+        <item name="colorPrimaryContainer">@color/kesho_primary_container</item>
+        <item name="colorSecondary">@color/kesho_secondary</item>
+        <item name="colorOnSecondary">@color/kesho_on_surface</item>
+        <item name="android:statusBarColor">@color/kesho_primary_dark</item>
+        <item name="android:windowBackground">@color/kesho_background</item>
+        <item name="android:navigationBarColor">@color/kesho_primary_dark</item>
+        <item name="colorSurface">@color/kesho_surface</item>
+        <item name="colorOnSurface">@color/kesho_on_surface</item>
+    </style>
+</resources>

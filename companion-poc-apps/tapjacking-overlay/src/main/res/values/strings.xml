@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kesho Tapjack PoC</string>
+    <string name="warning_text">Companion proof-of-concept for authorized Kesho Bank training use only. Demonstrates vuln #16: PinEntryActivity never calls setFilterTouchesWhenObscured(true), so a FLAG_NOT_TOUCHABLE overlay from this app can sit on top of it and taps still pass through underneath.</string>
+    <string name="grant_permission">1. Grant \"display over other apps\" permission</string>
+    <string name="show_overlay">2. Show decoy overlay</string>
+    <string name="hide_overlay">Hide overlay</string>
+    <string name="usage_hint">Then switch to Kesho Bank, open PinEntryActivity, and line the decoy banner up over the Submit button. Taps on the decoy still confirm the PIN underneath.</string>
+    <string name="decoy_text">🎁 Tap to claim your free airtime!</string>
+</resources>

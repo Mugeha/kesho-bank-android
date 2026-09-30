@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kesho Bank Support</title>
+    <style>
+        body { font-family: sans-serif; padding: 16px; color: #1a1a1a; }
+        h1 { font-size: 18px; }
+        code { background: #eee; padding: 2px 4px; }
+    </style>
+</head>
+<body>
+    <h1>Kesho Bank: Support Chat</h1>
+    <p>Live chat will appear here once the support service is connected.</p>
+    <p>Session (via the <code>Android</code> JS bridge):</p>
+    <ul>
+        <li>Account: <span id="acct"></span></li>
+        <li>Token: <span id="token"></span></li>
+    </ul>
+    <script>
+        if (window.Android) {
+            document.getElementById('acct').textContent = Android.getAccountNumber();
+            document.getElementById('token').textContent = Android.getAuthToken();
+        }
+    </script>
+</body>
+</html>

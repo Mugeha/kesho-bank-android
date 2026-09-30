@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kesho Bank</string>
+
+    <string name="roe_logo_description">Africahackon</string>
+    <string name="roe_title">Rules of Engagement</string>
+    <string name="roe_body">Kesho Bank is an official Africahackon practice platform. It is a wholly fictional mobile banking app created for authorized security-testing practice. It is not a real bank or financial institution, and it contains no real customer, account, or transaction data. Every record is synthetic.</string>
+    <string name="roe_scope_heading">Who may test, and what\'s in scope</string>
+    <string name="roe_scope_body">Testing is permitted only for registered Africahackon community members, against your own local instance of this app and its optional backend. Any vulnerability class you can genuinely trigger against Kesho Bank\'s own functionality is in scope.</string>
+    <string name="roe_out_of_scope_heading">Out of scope</string>
+    <string name="roe_out_of_scope_body">Any app or service other than Kesho Bank itself; denial-of-service or availability testing; real personal data of any kind; anything other than your own local, self-hosted instance. There is no shared or hosted Kesho Bank instance.</string>
+    <string name="roe_contact">Questions about scope, or an issue with the environment: academy@africahackon.com</string>
+    <string name="roe_acknowledge">I understand, continue</string>
+
+    <string name="login_account_hint">Account number</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_action">Log in</string>
+    <string name="login_error">Incorrect account number or password.</string>
+    <string name="login_demo_hint">Demo login: Account 4010312345, Password Kesho@Demo2026</string>
+
+    <string name="dashboard_greeting">Welcome back, %1$s</string>
+    <string name="dashboard_account_meta">Acct %1$s · %2$s</string>
+    <string name="dashboard_view_account">View account details</string>
+    <string name="dashboard_transfer">Transfer</string>
+    <string name="dashboard_statement">Statement</string>
+    <string name="dashboard_support">Support</string>
+    <string name="dashboard_settings">Settings</string>
+    <string name="dashboard_recent_activity">Recent activity</string>
+
+    <string name="account_search_hint">Search transactions</string>
+
+    <string name="transfer_title">New transfer</string>
+    <string name="transfer_recipient_hint">Recipient account number</string>
+    <string name="transfer_amount_hint">Amount (KES)</string>
+    <string name="transfer_memo_hint">Memo (optional)</string>
+    <string name="transfer_continue">Continue</string>
+
+    <string name="transfer_confirm_title">Confirm transfer</string>
+    <string name="transfer_confirm_action">Confirm and send</string>
+    <string name="transfer_rooted_warning">This device appears to be rooted. Kesho Bank restricts transfers on rooted devices.</string>
+    <string name="transfer_no_account">No account found.</string>
+    <string name="transfer_limit_exceeded">This exceeds your daily transfer limit of %1$s.</string>
+    <string name="transfer_insufficient_funds">Insufficient funds for this transfer.</string>
+
+    <string name="pin_entry_title">Enter your PIN</string>
+    <string name="pin_entry_submit">Submit</string>
+    <string name="pin_entry_incorrect">Incorrect PIN</string>
+
+    <string name="settings_server_url_label">Kesho server URL</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_pin_label">Transaction PIN</string>
+    <string name="settings_pin_new_hint">New 4-digit PIN</string>
+    <string name="settings_pin_confirm_hint">Confirm PIN</string>
+    <string name="settings_pin_save">Save PIN</string>
+    <string name="settings_pin_mismatch">PINs don\'t match.</string>
+    <string name="settings_pin_saved">PIN saved.</string>
+
+    <string name="deep_link_unrecognized">This link isn\'t recognized.</string>
+    <string name="deep_link_not_your_account">This reset link isn\'t valid for your account.</string>
+    <string name="deep_link_login_required">Log in to complete this payment.</string>
+    <string name="settings_view_roe">View Rules of Engagement</string>
+    <string name="settings_logout">Log out</string>
+</resources>
